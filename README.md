@@ -18,8 +18,12 @@ Used XGBoost classifier for link prediction.
 
 Tuned hyperparameters with RandomizedSearchCV for optimal performance.
 
-# **Evaluation:**
+# **Evaluation**:
 
 Assessed model performance using F1-score, confusion matrix, ROC curve, and AUC score.
 
 Identified key features contributing to friend recommendations.
+
+# **Tech Stack:** 
+
+Python, NetworkX, XGBoost, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn**
