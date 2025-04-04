@@ -26,4 +26,4 @@ Identified key features contributing to friend recommendations.
 
 # **Tech Stack:** 
 
-Python, NetworkX, XGBoost, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn**
+Python, NetworkX, XGBoost, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn.
