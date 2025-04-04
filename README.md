@@ -1,29 +1,25 @@
-# Social Network Graph Link Prediction
+# **Facebook Friend Recommendation using Graph-Based Machine Learning**
 
-**Facebook Friend Recommendation using Graph-Based Machine Learning**
+## **Objective:** 
 
-Objective: Predict potential friend connections in a social network using graph-based features and machine learning
+Predict potential friend connections in a social network using graph-based features and machine learning
 
-Graph Construction: Built a directed graph from training data using NetworkX.
+## **Graph Construction:** 
 
-# **Feature Engineering:**
+Built a directed graph from training data using NetworkX.
 
-Extracted network-based features like PageRank, Jaccard similarity, Adar index, Katz centrality, and Preferential attachment.
+## **Feature Engineering:**
 
-Applied Singular Value Decomposition (SVD) embeddings for better feature representation.
+Extracted network-based features like PageRank, Jaccard similarity, Adar index, Katz centrality, and Preferential attachment. Applied Singular Value Decomposition (SVD) embeddings for better feature representation.
 
-# **Model Training:**
+## **Model Training:**
 
-Used XGBoost classifier for link prediction.
+Used XGBoost classifier for link prediction. Tuned hyperparameters with RandomizedSearchCV for optimal performance.
 
-Tuned hyperparameters with RandomizedSearchCV for optimal performance.
+## **Evaluation**:
 
-# **Evaluation**:
+Assessed model performance using F1-score, confusion matrix, ROC curve, and AUC score. Identified key features contributing to friend recommendations.
 
-Assessed model performance using F1-score, confusion matrix, ROC curve, and AUC score.
-
-Identified key features contributing to friend recommendations.
-
-# **Tech Stack:** 
+## **Tech Stack:** 
 
 Python, NetworkX, XGBoost, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn.
